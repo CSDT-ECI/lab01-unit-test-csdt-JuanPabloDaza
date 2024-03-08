@@ -29,5 +29,15 @@ def test_ones_noOne():
         assert actual == expected
 
 
+def test_crazyChange_case1():
+        numbers = [2,4,6,2,2]
+        expected = 48
+        actual = Yatzy.crazyChange(numbers)
+        assert actual == expected
 
+def test_crazyChange_case2():
+        numbers = [1,1,3,5,5]
+        expected = 30
+        actual = Yatzy.crazyChange(numbers)
+        assert actual == expected
 

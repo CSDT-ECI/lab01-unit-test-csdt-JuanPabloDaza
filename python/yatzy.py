@@ -228,3 +228,13 @@ class Yatzy:
             return _2_at * 2 + _3_at * 3
         else:
             return 0
+
+    @staticmethod
+    def crazyChange(numbers):
+        total = 0
+        for number in numbers:
+            if number % 2 == 0:
+                total += number * 3
+            else:    
+                total += number * 2
+        return total
