@@ -28,7 +28,6 @@ def test_ones_noOne():
         actual = Yatzy.ones(*numbers)
         assert actual == expected
 
-def test_twoPair():
-        
+
 
 
